@@ -1,0 +1,12 @@
+$hargaBarang = [10000, 20000, 15000, 5000, 30000];
+$totalHarga = 0;
+
+foreach ($hargaBarang as $harga) {
+    $totalHarga += $harga;
+}
+
+if ($totalHarga % 2 == 0) {
+    echo "Total harga belanjaan adalah jumlah genap.";
+} else {
+    echo "Total harga belanjaan adalah jumlah ganjil.";
+}
