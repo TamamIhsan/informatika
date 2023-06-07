@@ -6,7 +6,7 @@ foreach ($hargaBarang as $harga) {
 }
 
 if ($totalHarga % 2 == 0) {
-    echo "Total harga belanjaan adalah jumlah genap.";
+    echo "Total harga belanjaan bernilai genap.";
 } else {
-    echo "Total harga belanjaan adalah jumlah ganjil.";
+    echo "Total harga belanjaan bernlai ganjil.";
 }
