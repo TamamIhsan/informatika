@@ -1,4 +1,4 @@
-$hargaBarang = [10000, 20000, 15000, 5000, 30000];
+$hargaBarang = [100000, 25000, 14000, 99000, 39000];
 $totalHarga = 0;
 
 foreach ($hargaBarang as $harga) {
