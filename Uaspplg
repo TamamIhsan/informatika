@@ -1,3 +1,5 @@
+<?php
+
 $hargaBarang = [100000, 25000, 14000, 99000, 39000];
 $totalHarga = 0;
 
@@ -10,3 +12,6 @@ if ($totalHarga % 2 == 0) {
 } else {
     echo "Total harga belanjaan bernlai ganjil.";
 }
+
+
+?>
